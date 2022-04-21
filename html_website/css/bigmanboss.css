@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+/*https://coolors.co/65def1-f6efee-220901-f71735-073b4c*/
+/*and they were roomates*/
+body { 
+	background-color: #F6EFEE;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	display: flex;
+}
+
+.box .imgBx {
+	width: 150px;
+	flex: 0 0 150px;
+}
+.box .imgBx img {
+	max-width: 100%;
+}
+.box .content {
+	padding-left: 20px;
+}
+.box .content p {
+	margin: 0;
+	padding: 100px 0 0;
+	padding-right: 50px;
+	text-align: justify;
+}
+
+img {
+	width: 300px;
+	float: left;
+	display: inline-block;
+}
+
+/*navv*/
+nav {
+	background-color: #073B4C;
+	padding-bottom: 40px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+nav ul {
+	float: right;
+}
+nav ul li {
+	list-style-type: none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display:inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+nav ul li a {
+	color: #F6EFEE;
+	text-decoration: none;
+	font-size: 15px; 
+	margin: 0px;
+}
+/*main shit*/
+main {
+	margin-left: 16px;
+	margin-right: 16px;
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+main h1 {
+	font-style: bold;
+	font-display: swap;
+}
+
+paragrah {
+	display: inline-block;
+}
+/*footer*/
+footer {
+	text-align: center;
+	padding: 1px;
+	background-color: #073B4C;
+	color: #F6EFEE;
+	font-size: 15px;
+}
+footer a {
+	text-decoration: none;
+	color: #32D3EC;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+/********************NOTES DO NOT USE IN CSS*******************/
+/*
+	<img src="images/rojasceron_arantza_poster.jpeg" alt="??">
+		<p>"Poster" made with Adobe Photoshop. </p>
+		<h3>Life Art (Edited with Adobe Photoshop)</h3>
+	<img src="images/rojasceron_arantza_surfccolor_textured.JPEG" alt="">
+		<p>"Surface Coloring" made with acrylics on a wooden Canvas. Colors edited in Adobe Photoshop.</p>
+	<img src="images/ROJASCERON_ARANTZA_PROJECT1.jpg" alt="??">
+		<p>"10,000 Marks" made with micro pens and sharpies. Brightness edited in Adobe Photoshop.</p>
+	
+		<h3>Adobe InDesign</h3>
+	<img src="images/rojasceron_arantza_fontdiary2.jpg" alt="??">
+		<p>"Font Diary" made with Adobe InDesign.</p>
+*/
+/*<div style="display:inline-block;vertical-align:top;">
+<img src="images/rojasceron_arantza_selfie1.jpg" alt= >
+</div>
+<div style="display:inline-block;">
+<p>*/
